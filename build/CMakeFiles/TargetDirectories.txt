@@ -1,0 +1,3 @@
+C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/transport_routes.dir
+C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/ZERO_CHECK.dir

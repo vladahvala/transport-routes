@@ -2,6 +2,8 @@
 #include <vector>
 #include <map>
 #include <cmath>
+#include <curl/curl.h>
+#include <json/json.h>
 using namespace std;
 
 class Position {
@@ -25,6 +27,63 @@ public:
     string getName() const { return name; }
     Position getPosition() const { return position; }
 };
+
+// Функція для виконання запитів через libcurl
+size_t WriteCallback(void* contents, size_t size, size_t nmemb, string* s) {
+    size_t newLength = size * nmemb;
+    s->append((char*)contents, newLength);
+    return newLength;
+}
+
+// Функція для отримання географічних координат за допомогою Nominatim API (OSM)
+string getCoordinatesFromOSM(const string& city) {
+    CURL* curl;
+    CURLcode res;
+    string readBuffer;
+
+    string url = "https://nominatim.openstreetmap.org/search?q=" + city + "&format=json&limit=1";
+
+    curl = curl_easy_init();
+    if (curl) {
+        curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &readBuffer);
+        res = curl_easy_perform(curl);
+        curl_easy_cleanup(curl);
+    }
+
+    return readBuffer;  // Повертаємо результат у вигляді JSON-строки
+}
+
+// Функція для парсингу координат з JSON-відповіді
+Position parseCoordinatesFromJSON(const string& jsonString) {
+    Json::Value jsonData;
+    Json::Reader jsonReader;
+
+    if (jsonReader.parse(jsonString, jsonData) && !jsonData.empty()) {
+        double lat = stod(jsonData[0]["lat"].asString());
+        double lon = stod(jsonData[0]["lon"].asString());
+        return Position(lon, lat, 0);  // Координати (X = довгота, Y = широта)
+    }
+
+    return Position(0, 0, 0);  // Якщо не вдалось знайти координати
+}
+
+// Функція для обчислення відстані між двома точками (широта і довгота) за формулою Haversine
+double haversine(double lat1, double lon1, double lat2, double lon2) {
+    const double EARTH_RADIUS = 6371.0;  // Радіус Землі в км
+    double dLat = (lat2 - lat1) * M_PI / 180.0;
+    double dLon = (lon2 - lon1) * M_PI / 180.0;
+
+    lat1 = lat1 * M_PI / 180.0;
+    lat2 = lat2 * M_PI / 180.0;
+
+    double a = sin(dLat / 2) * sin(dLat / 2) +
+               cos(lat1) * cos(lat2) * sin(dLon / 2) * sin(dLon / 2);
+    double c = 2 * atan2(sqrt(a), sqrt(1 - a));
+
+    return EARTH_RADIUS * c;  // Відстань у кілометрах
+}
 
 class Graph {
 
@@ -187,62 +246,35 @@ void addCity(vector<City>& cities, int cityId) {
 }
 
 int main() {
-    Graph cityGraph;
+    string city1, city2;
 
-    // Створюємо список міст
-    vector<City> cities;
-    int CityId = 9;
+    // Запитуємо у користувача назви двох міст
+    cout << "Enter the first city name: ";
+    cin >> city1;
+    cout << "Enter the second city name: ";
+    cin >> city2;
 
-    // Додаємо 10 найбільших міст України з ID та координатами
-    cities.push_back(City(0, "Kyiv", Position(0, 0, 0)));      // Умовні координати
-    cities.push_back(City(1, "Kharkiv", Position(500, 150, 0)));   // Координати умовні, у км
-    cities.push_back(City(2, "Odessa", Position(0, 475, 0)));
-    cities.push_back(City(3, "Dnipro", Position(275, -150, 0)));
-    cities.push_back(City(4, "Donezk", Position(600, -50, 0)));
-    cities.push_back(City(5, "Zaporizhzhia", Position(350, -250, 0)));
-    cities.push_back(City(6, "Lviv", Position(-500, 100, 0)));
-    cities.push_back(City(7, "Kryvyi Rih", Position(200, -350, 0)));
-    cities.push_back(City(8, "Mykolaiv", Position(100, -450, 0)));
-    cities.push_back(City(9, "Mariupol", Position(600, -250, 0)));
+    // Отримуємо географічні координати для обох міст
+    string response1 = getCoordinatesFromOSM(city1);
+    string response2 = getCoordinatesFromOSM(city2);
 
-    //меню
-    int value;
+    // Парсимо координати
+    Position pos1 = parseCoordinatesFromJSON(response1);
+    Position pos2 = parseCoordinatesFromJSON(response2);
 
-    while (value)
-    {
-        cout << "\nEnter: "<<endl;
-        cout << "0 - exit" << endl;
-        cout << "1 - add a city" << endl;
-        cout << "2 - choose a route" << endl;
-        switch (value)
-        {
-            case 0: return 0;
-            case 1:{
-                CityId++;
-                addCity(cities, CityId);
-                break;
-            }
-            case 2: {
-
-            }
-        }
+    if (pos1.X == 0 && pos1.Y == 0 || pos2.X == 0 && pos2.Y == 0) {
+        cout << "Failed to retrieve coordinates for one or both cities." << endl;
+        return 1;
     }
 
-    // Додаємо міста як вершини графа
-    for (const auto& city : cities) {
-        Position pos = city.getPosition();
-        cityGraph.addNode(city.getId(), pos.X, pos.Y, pos.Z);
-    }
+    cout << "Coordinates of " << city1 << ": Longitude = " << pos1.X << ", Latitude = " << pos1.Y << endl;
+    cout << "Coordinates of " << city2 << ": Longitude = " << pos2.X << ", Latitude = " << pos2.Y << endl;
 
-    // Додаємо деякі ребра між містами, де вага дорівнює відстані
-    cityGraph.addEdge(0, 1);  
-    cityGraph.addEdge(0, 2);  
-    cityGraph.addEdge(1, 3);  
-    cityGraph.addEdge(2, 4);  
-    cityGraph.addEdge(4, 3);  
+    // Обчислюємо відстань між двома містами
+    double distance = haversine(pos1.Y, pos1.X, pos2.Y, pos2.X);
 
-    // Виводимо граф
-    cityGraph.printGraph();
+    cout << "Distance between " << city1 << " and " << city2 << " is: " << distance << " km" << endl;
 
     return 0;
+
 }

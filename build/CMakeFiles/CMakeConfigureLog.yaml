@@ -1,0 +1,1193 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Windows - 10.0.19044 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+      Сборка начата 22.09.2024 20:45:47.
+      
+      Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.50
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/3.26.4-msvc4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+      Сборка начата 22.09.2024 20:45:47.
+      
+      Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.40
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/3.26.4-msvc4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-gdwz2e"
+      binary: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-gdwz2e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-gdwz2e
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a228c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 22.09.2024 20:45:48.
+        
+        Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gdwz2e\\cmTC_a228c.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_a228c.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gdwz2e\\Debug\\".
+          Создание каталога "cmTC_a228c.dir\\Debug\\cmTC_a228c.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_a228c.dir\\Debug\\cmTC_a228c.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_a228c.dir\\Debug\\cmTC_a228c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a228c.dir\\Debug\\\\" /Fd"cmTC_a228c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          CMakeCCompilerABI.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a228c.dir\\Debug\\\\" /Fd"cmTC_a228c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gdwz2e\\Debug\\cmTC_a228c.exe" /INCREMENTAL /ILK:"cmTC_a228c.dir\\Debug\\cmTC_a228c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-gdwz2e/Debug/cmTC_a228c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-gdwz2e/Debug/cmTC_a228c.lib" /MACHINE:X64  /machine:x64 cmTC_a228c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_a228c.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gdwz2e\\Debug\\cmTC_a228c.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_a228c.dir\\Debug\\cmTC_a228c.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_a228c.dir\\Debug\\cmTC_a228c.tlog\\cmTC_a228c.lastbuildstate".
+        Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gdwz2e\\cmTC_a228c.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.41
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-lhify3"
+      binary: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-lhify3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-lhify3
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e5b59.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 22.09.2024 20:45:48.
+        
+        Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhify3\\cmTC_e5b59.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_e5b59.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhify3\\Debug\\".
+          Создание каталога "cmTC_e5b59.dir\\Debug\\cmTC_e5b59.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_e5b59.dir\\Debug\\cmTC_e5b59.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_e5b59.dir\\Debug\\cmTC_e5b59.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e5b59.dir\\Debug\\\\" /Fd"cmTC_e5b59.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          CMakeCXXCompilerABI.cpp
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e5b59.dir\\Debug\\\\" /Fd"cmTC_e5b59.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhify3\\Debug\\cmTC_e5b59.exe" /INCREMENTAL /ILK:"cmTC_e5b59.dir\\Debug\\cmTC_e5b59.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-lhify3/Debug/cmTC_e5b59.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-lhify3/Debug/cmTC_e5b59.lib" /MACHINE:X64  /machine:x64 cmTC_e5b59.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e5b59.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhify3\\Debug\\cmTC_e5b59.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_e5b59.dir\\Debug\\cmTC_e5b59.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_e5b59.dir\\Debug\\cmTC_e5b59.tlog\\cmTC_e5b59.lastbuildstate".
+        Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhify3\\cmTC_e5b59.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.43
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19044 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+      Сборка начата 22.09.2024 20:56:19.
+      
+      Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.54
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/3.26.4-msvc4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+      Сборка начата 22.09.2024 20:56:20.
+      
+      Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.41
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/3.26.4-msvc4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-aseakv"
+      binary: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-aseakv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-aseakv
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d3d4a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 22.09.2024 20:56:20.
+        
+        Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aseakv\\cmTC_d3d4a.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_d3d4a.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aseakv\\Debug\\".
+          Создание каталога "cmTC_d3d4a.dir\\Debug\\cmTC_d3d4a.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_d3d4a.dir\\Debug\\cmTC_d3d4a.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_d3d4a.dir\\Debug\\cmTC_d3d4a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3d4a.dir\\Debug\\\\" /Fd"cmTC_d3d4a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          CMakeCCompilerABI.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3d4a.dir\\Debug\\\\" /Fd"cmTC_d3d4a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aseakv\\Debug\\cmTC_d3d4a.exe" /INCREMENTAL /ILK:"cmTC_d3d4a.dir\\Debug\\cmTC_d3d4a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-aseakv/Debug/cmTC_d3d4a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-aseakv/Debug/cmTC_d3d4a.lib" /MACHINE:X64  /machine:x64 cmTC_d3d4a.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_d3d4a.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aseakv\\Debug\\cmTC_d3d4a.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_d3d4a.dir\\Debug\\cmTC_d3d4a.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_d3d4a.dir\\Debug\\cmTC_d3d4a.tlog\\cmTC_d3d4a.lastbuildstate".
+        Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aseakv\\cmTC_d3d4a.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-8i648t"
+      binary: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-8i648t"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-8i648t
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_87466.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 22.09.2024 20:56:21.
+        
+        Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8i648t\\cmTC_87466.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_87466.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8i648t\\Debug\\".
+          Создание каталога "cmTC_87466.dir\\Debug\\cmTC_87466.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_87466.dir\\Debug\\cmTC_87466.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_87466.dir\\Debug\\cmTC_87466.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_87466.dir\\Debug\\\\" /Fd"cmTC_87466.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          CMakeCXXCompilerABI.cpp
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_87466.dir\\Debug\\\\" /Fd"cmTC_87466.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8i648t\\Debug\\cmTC_87466.exe" /INCREMENTAL /ILK:"cmTC_87466.dir\\Debug\\cmTC_87466.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-8i648t/Debug/cmTC_87466.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-8i648t/Debug/cmTC_87466.lib" /MACHINE:X64  /machine:x64 cmTC_87466.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_87466.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8i648t\\Debug\\cmTC_87466.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_87466.dir\\Debug\\cmTC_87466.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_87466.dir\\Debug\\cmTC_87466.tlog\\cmTC_87466.lastbuildstate".
+        Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8i648t\\cmTC_87466.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.42
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19044 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+      Сборка начата 22.09.2024 21:48:43.
+      
+      Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.56
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/3.26.4-msvc4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+      Сборка начата 22.09.2024 21:48:43.
+      
+      Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.41
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/3.26.4-msvc4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-cqb9cy"
+      binary: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-cqb9cy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-cqb9cy
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5259a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 22.09.2024 21:48:44.
+        
+        Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqb9cy\\cmTC_5259a.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_5259a.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqb9cy\\Debug\\".
+          Создание каталога "cmTC_5259a.dir\\Debug\\cmTC_5259a.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_5259a.dir\\Debug\\cmTC_5259a.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_5259a.dir\\Debug\\cmTC_5259a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5259a.dir\\Debug\\\\" /Fd"cmTC_5259a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          CMakeCCompilerABI.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5259a.dir\\Debug\\\\" /Fd"cmTC_5259a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqb9cy\\Debug\\cmTC_5259a.exe" /INCREMENTAL /ILK:"cmTC_5259a.dir\\Debug\\cmTC_5259a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-cqb9cy/Debug/cmTC_5259a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-cqb9cy/Debug/cmTC_5259a.lib" /MACHINE:X64  /machine:x64 cmTC_5259a.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_5259a.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqb9cy\\Debug\\cmTC_5259a.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_5259a.dir\\Debug\\cmTC_5259a.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_5259a.dir\\Debug\\cmTC_5259a.tlog\\cmTC_5259a.lastbuildstate".
+        Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cqb9cy\\cmTC_5259a.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.42
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-w70o2q"
+      binary: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-w70o2q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-w70o2q
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3ea30.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 22.09.2024 21:48:44.
+        
+        Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w70o2q\\cmTC_3ea30.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_3ea30.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w70o2q\\Debug\\".
+          Создание каталога "cmTC_3ea30.dir\\Debug\\cmTC_3ea30.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_3ea30.dir\\Debug\\cmTC_3ea30.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_3ea30.dir\\Debug\\cmTC_3ea30.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3ea30.dir\\Debug\\\\" /Fd"cmTC_3ea30.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          CMakeCXXCompilerABI.cpp
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3ea30.dir\\Debug\\\\" /Fd"cmTC_3ea30.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w70o2q\\Debug\\cmTC_3ea30.exe" /INCREMENTAL /ILK:"cmTC_3ea30.dir\\Debug\\cmTC_3ea30.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-w70o2q/Debug/cmTC_3ea30.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-w70o2q/Debug/cmTC_3ea30.lib" /MACHINE:X64  /machine:x64 cmTC_3ea30.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_3ea30.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w70o2q\\Debug\\cmTC_3ea30.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_3ea30.dir\\Debug\\cmTC_3ea30.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_3ea30.dir\\Debug\\cmTC_3ea30.tlog\\cmTC_3ea30.lastbuildstate".
+        Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w70o2q\\cmTC_3ea30.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.39
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19044 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+      Сборка начата 22.09.2024 22:04:25.
+      
+      Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib" /LIBPATH:"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" не является внутренней или внешней
+        командой, исполняемой программой или пакетным файлом.
+        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.78
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/3.26.4-msvc4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+      Сборка начата 22.09.2024 22:04:26.
+      
+      Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib" /LIBPATH:"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" не является внутренней или внешней
+        командой, исполняемой программой или пакетным файлом.
+        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.68
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/3.26.4-msvc4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-onnljq"
+      binary: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-onnljq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-onnljq
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_07bfb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 22.09.2024 22:04:27.
+        
+        Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onnljq\\cmTC_07bfb.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_07bfb.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onnljq\\Debug\\".
+          Создание каталога "cmTC_07bfb.dir\\Debug\\cmTC_07bfb.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_07bfb.dir\\Debug\\cmTC_07bfb.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_07bfb.dir\\Debug\\cmTC_07bfb.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07bfb.dir\\Debug\\\\" /Fd"cmTC_07bfb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          CMakeCCompilerABI.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07bfb.dir\\Debug\\\\" /Fd"cmTC_07bfb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onnljq\\Debug\\cmTC_07bfb.exe" /INCREMENTAL /ILK:"cmTC_07bfb.dir\\Debug\\cmTC_07bfb.ilk" /NOLOGO /LIBPATH:"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib" /LIBPATH:"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-onnljq/Debug/cmTC_07bfb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-onnljq/Debug/cmTC_07bfb.lib" /MACHINE:X64  /machine:x64 cmTC_07bfb.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_07bfb.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onnljq\\Debug\\cmTC_07bfb.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onnljq\\Debug\\cmTC_07bfb.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "cmTC_07bfb.dir\\Debug\\cmTC_07bfb.tlog\\cmTC_07bfb.write.1u.tlog" "cmTC_07bfb.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" не является внутренней или внешней
+          командой, исполняемой программой или пакетным файлом.
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onnljq\\Debug\\cmTC_07bfb.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "cmTC_07bfb.dir\\Debug\\cmTC_07bfb.tlog\\cmTC_07bfb.write.1u.tlog" "cmTC_07bfb.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onnljq\\Debug\\cmTC_07bfb.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "cmTC_07bfb.dir\\Debug\\cmTC_07bfb.tlog\\cmTC_07bfb.write.1u.tlog" "cmTC_07bfb.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_07bfb.dir\\Debug\\cmTC_07bfb.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_07bfb.dir\\Debug\\cmTC_07bfb.tlog\\cmTC_07bfb.lastbuildstate".
+        Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onnljq\\cmTC_07bfb.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.64
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-gbebpp"
+      binary: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-gbebpp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-gbebpp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_34be3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 22.09.2024 22:04:28.
+        
+        Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gbebpp\\cmTC_34be3.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_34be3.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gbebpp\\Debug\\".
+          Создание каталога "cmTC_34be3.dir\\Debug\\cmTC_34be3.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_34be3.dir\\Debug\\cmTC_34be3.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_34be3.dir\\Debug\\cmTC_34be3.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_34be3.dir\\Debug\\\\" /Fd"cmTC_34be3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          CMakeCXXCompilerABI.cpp
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_34be3.dir\\Debug\\\\" /Fd"cmTC_34be3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gbebpp\\Debug\\cmTC_34be3.exe" /INCREMENTAL /ILK:"cmTC_34be3.dir\\Debug\\cmTC_34be3.ilk" /NOLOGO /LIBPATH:"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib" /LIBPATH:"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-gbebpp/Debug/cmTC_34be3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-gbebpp/Debug/cmTC_34be3.lib" /MACHINE:X64  /machine:x64 cmTC_34be3.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_34be3.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gbebpp\\Debug\\cmTC_34be3.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gbebpp\\Debug\\cmTC_34be3.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "cmTC_34be3.dir\\Debug\\cmTC_34be3.tlog\\cmTC_34be3.write.1u.tlog" "cmTC_34be3.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" не является внутренней или внешней
+          командой, исполняемой программой или пакетным файлом.
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gbebpp\\Debug\\cmTC_34be3.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "cmTC_34be3.dir\\Debug\\cmTC_34be3.tlog\\cmTC_34be3.write.1u.tlog" "cmTC_34be3.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gbebpp\\Debug\\cmTC_34be3.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "cmTC_34be3.dir\\Debug\\cmTC_34be3.tlog\\cmTC_34be3.write.1u.tlog" "cmTC_34be3.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_34be3.dir\\Debug\\cmTC_34be3.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_34be3.dir\\Debug\\cmTC_34be3.tlog\\cmTC_34be3.lastbuildstate".
+        Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gbebpp\\cmTC_34be3.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.67
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19044 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+      Сборка начата 22.09.2024 22:05:06.
+      
+      Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib" /LIBPATH:"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" не является внутренней или внешней
+        командой, исполняемой программой или пакетным файлом.
+        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.78
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/3.26.4-msvc4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+      Сборка начата 22.09.2024 22:05:07.
+      
+      Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib" /LIBPATH:"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" не является внутренней или внешней
+        командой, исполняемой программой или пакетным файлом.
+        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\3.26.4-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.69
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/3.26.4-msvc4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-cy94up"
+      binary: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-cy94up"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-cy94up
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1aa2f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 22.09.2024 22:05:08.
+        
+        Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cy94up\\cmTC_1aa2f.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_1aa2f.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cy94up\\Debug\\".
+          Создание каталога "cmTC_1aa2f.dir\\Debug\\cmTC_1aa2f.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_1aa2f.dir\\Debug\\cmTC_1aa2f.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_1aa2f.dir\\Debug\\cmTC_1aa2f.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1aa2f.dir\\Debug\\\\" /Fd"cmTC_1aa2f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          CMakeCCompilerABI.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1aa2f.dir\\Debug\\\\" /Fd"cmTC_1aa2f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cy94up\\Debug\\cmTC_1aa2f.exe" /INCREMENTAL /ILK:"cmTC_1aa2f.dir\\Debug\\cmTC_1aa2f.ilk" /NOLOGO /LIBPATH:"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib" /LIBPATH:"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-cy94up/Debug/cmTC_1aa2f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-cy94up/Debug/cmTC_1aa2f.lib" /MACHINE:X64  /machine:x64 cmTC_1aa2f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_1aa2f.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cy94up\\Debug\\cmTC_1aa2f.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cy94up\\Debug\\cmTC_1aa2f.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "cmTC_1aa2f.dir\\Debug\\cmTC_1aa2f.tlog\\cmTC_1aa2f.write.1u.tlog" "cmTC_1aa2f.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" не является внутренней или внешней
+          командой, исполняемой программой или пакетным файлом.
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cy94up\\Debug\\cmTC_1aa2f.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "cmTC_1aa2f.dir\\Debug\\cmTC_1aa2f.tlog\\cmTC_1aa2f.write.1u.tlog" "cmTC_1aa2f.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cy94up\\Debug\\cmTC_1aa2f.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "cmTC_1aa2f.dir\\Debug\\cmTC_1aa2f.tlog\\cmTC_1aa2f.write.1u.tlog" "cmTC_1aa2f.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_1aa2f.dir\\Debug\\cmTC_1aa2f.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_1aa2f.dir\\Debug\\cmTC_1aa2f.tlog\\cmTC_1aa2f.lastbuildstate".
+        Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cy94up\\cmTC_1aa2f.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.68
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-03tak4"
+      binary: "C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-03tak4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-03tak4
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e518a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 22.09.2024 22:05:09.
+        
+        Проект "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03tak4\\cmTC_e518a.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_e518a.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03tak4\\Debug\\".
+          Создание каталога "cmTC_e518a.dir\\Debug\\cmTC_e518a.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_e518a.dir\\Debug\\cmTC_e518a.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_e518a.dir\\Debug\\cmTC_e518a.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e518a.dir\\Debug\\\\" /Fd"cmTC_e518a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          CMakeCXXCompilerABI.cpp
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e518a.dir\\Debug\\\\" /Fd"cmTC_e518a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03tak4\\Debug\\cmTC_e518a.exe" /INCREMENTAL /ILK:"cmTC_e518a.dir\\Debug\\cmTC_e518a.ilk" /NOLOGO /LIBPATH:"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib" /LIBPATH:"D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-03tak4/Debug/cmTC_e518a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/CMakeScratch/TryCompile-03tak4/Debug/cmTC_e518a.lib" /MACHINE:X64  /machine:x64 cmTC_e518a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e518a.vcxproj -> C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03tak4\\Debug\\cmTC_e518a.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03tak4\\Debug\\cmTC_e518a.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "cmTC_e518a.dir\\Debug\\cmTC_e518a.tlog\\cmTC_e518a.write.1u.tlog" "cmTC_e518a.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" не является внутренней или внешней
+          командой, исполняемой программой или пакетным файлом.
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03tak4\\Debug\\cmTC_e518a.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "cmTC_e518a.dir\\Debug\\cmTC_e518a.tlog\\cmTC_e518a.write.1u.tlog" "cmTC_e518a.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\vcpkg-master\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03tak4\\Debug\\cmTC_e518a.exe" "D:\\vcpkg\\vcpkg-master\\installed\\x64-windows\\bin" "cmTC_e518a.dir\\Debug\\cmTC_e518a.tlog\\cmTC_e518a.write.1u.tlog" "cmTC_e518a.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_e518a.dir\\Debug\\cmTC_e518a.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_e518a.dir\\Debug\\cmTC_e518a.tlog\\cmTC_e518a.lastbuildstate".
+        Сборка проекта "C:\\Users\\Vlada Hvala\\Documents\\GitHub\\transport-routes_lab_1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03tak4\\cmTC_e518a.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.65
+        
+      exitCode: 0
+...

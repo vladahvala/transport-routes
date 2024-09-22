@@ -1,0 +1,41 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeCInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindCURL.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindPackageMessage.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/FindZLIB.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Platform/Windows.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake
+C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/CMakeLists.txt
+C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/3.26.4-msvc4/CMakeCCompiler.cmake
+C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/3.26.4-msvc4/CMakeCXXCompiler.cmake
+C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/3.26.4-msvc4/CMakeRCCompiler.cmake
+C:/Users/Vlada Hvala/Documents/GitHub/transport-routes_lab_1/build/CMakeFiles/3.26.4-msvc4/CMakeSystem.cmake
+D:/vcpkg/vcpkg-master/installed/x64-windows/share/curl/CURLConfig.cmake
+D:/vcpkg/vcpkg-master/installed/x64-windows/share/curl/CURLConfigVersion.cmake
+D:/vcpkg/vcpkg-master/installed/x64-windows/share/curl/CURLTargets-debug.cmake
+D:/vcpkg/vcpkg-master/installed/x64-windows/share/curl/CURLTargets-release.cmake
+D:/vcpkg/vcpkg-master/installed/x64-windows/share/curl/CURLTargets.cmake
+D:/vcpkg/vcpkg-master/installed/x64-windows/share/jsoncpp/jsoncpp-namespaced-targets.cmake
+D:/vcpkg/vcpkg-master/installed/x64-windows/share/jsoncpp/jsoncpp-targets-debug.cmake
+D:/vcpkg/vcpkg-master/installed/x64-windows/share/jsoncpp/jsoncpp-targets-release.cmake
+D:/vcpkg/vcpkg-master/installed/x64-windows/share/jsoncpp/jsoncpp-targets.cmake
+D:/vcpkg/vcpkg-master/installed/x64-windows/share/jsoncpp/jsoncppConfig.cmake
+D:/vcpkg/vcpkg-master/installed/x64-windows/share/jsoncpp/jsoncppConfigVersion.cmake
